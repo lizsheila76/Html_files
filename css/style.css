@@ -1,0 +1,30 @@
+p{color: black;
+  font-family: Dialog;
+  font-size: 18px;
+  background-color: white;
+text-align: center;
+}
+button{
+color:black;
+  padding: 15px;
+  font-size: 16px;
+  background-color:sandybrown;
+  border: 0;
+  text-align: center;
+  margin: 20px;}
+td,th{
+  border: 2px solid #941bf8;
+  font-family: "DejaVu Serif";
+  padding: 10px;
+  text-align:left;
+  color: #64008b;
+  background-color: gold;
+  border-radius: 10px;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px;
+  background-color: floralwhite;
+}
+

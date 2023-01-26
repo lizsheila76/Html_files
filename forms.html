@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <style>
+    form{
+      font-family: "DejaVu Serif";
+      background-color: black;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      gap: 50px;
+    }
+    input {
+      background-color: #1993e0;
+      border: sandybrown solid;
+      margin: 10px;
+    }
+    select{
+      background-color: #1993e0;
+      border: sandybrown solid;
+    } button{
+      text-align: center;
+          }
+
+
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms</title>
+</head>
+<body>
+<h2>Student Registration Form</h2>
+<form action="iframe.html"method="post">
+  <label for="fname"> Full Names</label>
+  <input type="text"id="fname"><br>
+  <label for="email"> Email Address</label>
+  <input type="email"id="email"placeholder="Enter your email address"><br>
+  <label for="sim"> Phone Number</label>
+  <input type="text"id="sim"placeholder="Enter your phone number"><br>
+  <label for="DoB">Date of Birth</label>
+  <input type="Date"id="DoB"><br>
+  <label for="male">Male</label>
+  <input type="radio"id="male"name="gender"><br>
+  <label for="female">Female</label>
+  <input type="radio"id="female"name="gender"><br>
+  <label for="course"> Course Taken</label>
+  <select name="course" id="course">
+    <option value="javascript">Javascript</option>
+    <option value="python">Python</option>
+    <option value="android">Android</option>
+    <option value="cyber security">Cyber Security</option>
+    <option value="bootstrap">Bootstrap</option>
+    <option value="css">CSS</option>
+    <option value="fullstacksoftwaredevelpment">Full Stack Software Development</option>
+  </select><br>
+  <label for="image">Upload picture</label>
+  <input type="file"id="image"><br>
+  <label for="password">Password</label>
+  <input type="password"id="password"placeholder="Enter your password"name=""><br>
+  <input type="submit"value="Register Here">
+</form>
+<button type="button"onclick="alert('Safari Lab Morning Class')">BONYEZA</button>
+</body>
+</html>
